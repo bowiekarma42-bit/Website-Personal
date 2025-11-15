@@ -173,7 +173,7 @@
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Maternity</span>
                 </div>
                 <!-- ITEM FOTO WISUDA --><div class="gallery-item rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://placehold.co/400x300/4f46e5/ffffff?text=Wisuda+Foto" alt="Wisuda Foto" class="w-full h-auto object-cover">
+                    <img src="[https://placehold.co/400x300/4f46e5/ffffff?text=Wisuda+Foto" alt=](https://github.com/bowiekarma42-bit/Website-Personal/blob/main/WhatsApp%20Image%202025-11-15%20at%2019.06.40.jpeg)"Wisuda Foto" class="w-full h-auto object-cover">
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Wisuda</span>
                 </div>
             </div>
