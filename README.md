@@ -1,161 +1,136 @@
-[@bow.films.html](https://github.com/user-attachments/files/23560640/%40bow.films.html)
+[code (1).html](https://github.com/user-attachments/files/23560745/code.1.html)
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Fotografer & Videografer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>bow.films - Galeri Foto & Video </title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
-        }
-        .hero {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
-            padding: 100px 0;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            animation: fadeIn 2s ease-in;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        nav {
+            background: rgba(0,0,0,0.5);
+            padding: 10px;
             text-align: center;
         }
-        .gallery img {
-            width: 100%;
-            height: 250px;
-            object-fit: cover;
-            transition: transform 0.3s ease;
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            transition: color 0.3s;
         }
-        .gallery img:hover {
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .item {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+            animation: slideUp 1s ease-out;
+        }
+        .item:hover {
             transform: scale(1.05);
         }
-        .video-container {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+        img, video {
             width: 100%;
             height: 100%;
+            object-fit: cover;
         }
-        footer {
-            background-color: #343a40;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
     </style>
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">Portofolio Saya</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-menu">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#photos">Foto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#videos">Video</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
-                </ul>
-            </div>
-        </div>
+    <header>
+        <h1>bow.films</h1>
+        <p>Galeri Foto & Video </p>
+    </header>
+    <nav>
+        <a href="#photos">Foto</a>
+        <a href="#videos">Video</a>
+        <a href="#about">Tentang</a>
     </nav>
-
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <h1>Selamat Datang di Portofolio Saya</h1>
-            <p>Fotografer dan Videografer Profesional | Tangkap Momen Indah Anda</p>
-            <a href="#photos" class="btn btn-light btn-lg">Lihat Portofolio</a>
-        </div>
-    </section>
-
-    <!-- Photo Gallery -->
-    <section id="photos" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Galeri Foto</h2>
-            <div class="row gallery">
-                <div class="col-md-4 mb-4">
-                    <img src="https://source.unsplash.com/random/800x600/?photography" alt="Foto 1">
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="https://source.unsplash.com/random/800x600/?portrait" alt="Foto 2">
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="https://source.unsplash.com/random/800x600/?landscape" alt="Foto 3">
-                </div>
-                <!-- Tambahkan lebih banyak gambar di sini -->
+    <section id="photos">
+        <h2>Foto Keren</h2>
+        <div class="gallery">
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Foto+1" alt="Contoh Foto 1">
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Foto+2" alt="Contoh Foto 2">
+            </div>
+            <div class="item">
+                <img src="https://via.placeholder.com/300x200?text=Foto+3" alt="Contoh Foto 3">
             </div>
         </div>
     </section>
-
-    <!-- Video Gallery -->
-    <section id="videos" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center mb-4">Galeri Video</h2>
-            <div class="row">
-                <div class="col-md-6 mb-4">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <p class="mt-2">Video Wedding - Contoh Kreatif</p>
-                </div>
-                <div class="col-md-6 mb-4">
-                    <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <p class="mt-2">Video Dokumenter - Eksplorasi Alam</p>
-                </div>
-                <!-- Tambahkan lebih banyak video di sini -->
+    <section id="videos">
+        <h2>Video Keren</h2>
+        <div class="gallery">
+            <div class="item">
+                <video controls>
+                    <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
+            </div>
+            <div class="item">
+                <video controls>
+                    <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_2mb.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video.
+                </video>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2 class="text-center mb-4">Hubungi Saya</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Nama</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="message" rows="4"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+    <section id="about">
+        <h2>Tentang bow.films</h2>
+        <p>Website ini dibuat untuk menampilkan koleksi foto dan video dari @bow.films. 2025</p>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 @bow.films Portofolio Fotografer & Videografer, Dibuat dengan <i class="fas fa-heart"></i></p>
-            <div>
-                <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
-            </div>
-        </div>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Animasi sederhana untuk scroll
+        window.addEventListener('scroll', () => {
+            const items = document.querySelectorAll('.item');
+            items.forEach(item => {
+                const rect = item.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    item.style.animationPlayState = 'running';
+                }
+            });
+        });
+    </script>
 </body>
 </html>
