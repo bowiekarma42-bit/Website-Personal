@@ -147,7 +147,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 @bow.films Portofolio Fotografer & Videografer. Dibuat dengan <i class="fas fa-heart"></i></p>
+            <p>&copy; 2025 @bow.films Portofolio Fotografer & Videografer, Dibuat dengan <i class="fas fa-heart"></i></p>
             <div>
                 <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
