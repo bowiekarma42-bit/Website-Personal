@@ -122,6 +122,7 @@
             <!-- Warna teks Header dikembalikan untuk kontras yang lebih baik dengan latar belakang terang --><h1 class="text-2xl font-black tracking-wider text-purple-600 dark:text-purple-400">BOW FILMS</h1>
             <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-700 dark:text-gray-300">
                 <a href="#portfolio" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Portofolio</a>
+                <a href="#instagram-feed" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Instagram</a>
                 <a href="#kontak" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Kontak</a>
                 <a href="#pemesanan" class="hover:text-purple-600 dark:hover:text-purple-400 transition">Pesan Jasa</a>
             </nav>
@@ -159,11 +160,6 @@
                     <img src="https://placehold.co/400x300/5b21b6/ffffff?text=Corporate+Shoot" alt="Corporate Shoot" class="w-full h-auto object-cover">
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Corporate</span>
                 </div>
-                
-                <div class="gallery-item rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="https://placehold.co/400x300/a855f7/ffffff?text=Wedding+02" alt="Wedding Foto" class="w-full h-auto object-cover">
-                    <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Wedding</span>
-                </div>
                 <div class="gallery-item rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
                     <img src="https://placehold.co/400x300/6d28d9/ffffff?text=Engagement" alt="Engagement Foto" class="w-full h-auto object-cover">
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Photo</span>
@@ -176,13 +172,44 @@
                     <img src="https://placehold.co/400x300/7c3aed/ffffff?text=Maternity" alt="Maternity Foto" class="w-full h-auto object-cover">
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Maternity</span>
                 </div>
-                <!-- ITEM BARU: FOTO WISUDA dengan gambar baru --><div class="gallery-item rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
-                    <img src="uploaded:WhatsApp Image 2024-05-15 at 19.10.42.jpeg-7a4c0429-1606-4914-9467-f4e38c92576b" alt="Wisuda Foto" class="w-full h-auto object-cover">
+                <!-- ITEM FOTO WISUDA --><div class="gallery-item rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition duration-300">
+                    <img src="https://placehold.co/400x300/4f46e5/ffffff?text=Wisuda+Foto" alt="Wisuda Foto" class="w-full h-auto object-cover">
                     <span class="gallery-badge absolute bottom-2 right-2 px-3 py-1 bg-white/80 backdrop-blur-sm text-xs font-semibold rounded-full text-gray-800 transition duration-300">Wisuda</span>
                 </div>
             </div>
         </section>
 
+        <!-- BAGIAN INSTAGRAM PREVIEW/LINK BARU -->
+        <section id="instagram-feed" class="mb-16">
+            <h3 class="text-3xl font-bold mb-6 text-center text-purple-600 dark:text-purple-400">Jelajahi Konten Kami di Instagram</h3>
+            <p class="text-center mb-6 text-lg text-gray-700 dark:text-gray-300">
+                Lihat lebih banyak *behind the scenes*, cerita, dan foto eksklusif di akun resmi kami.
+            </p>
+
+            <!-- Tombol CTA ke Instagram -->
+            <div class="flex justify-center mb-8">
+                <a href="https://www.instagram.com/bow.films?igsh=cWpkaWtpNnJjbHl2" target="_blank" class="px-6 py-3 rounded-lg font-bold text-lg flex items-center justify-center space-x-2 transition duration-300 bg-pink-600 hover:bg-pink-700 text-white shadow-lg">
+                    <!-- Icon Instagram -->
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2zm-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6zm9.6 1.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zM12 9a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm0 2a2 2 0 1 1 0 4 2 2 0 0 1 0-4z"/></svg>
+                    <span>Kunjungi @bow.films</span>
+                </a>
+            </div>
+
+            <!-- Simulasi Feed Instagram (3 Kolom) - Bagian ini Dihapus -->
+            <!-- <div class="grid grid-cols-3 gap-1 rounded-xl overflow-hidden shadow-lg">
+                <a href="https://www.instagram.com/reel/DJy7TBhhpRg/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" aria-label="Lihat Postingan Instagram 1">
+                    <img src="https://placehold.co/400x400/a855f7/ffffff?text=Reel+1" alt="Instagram Reel 1" class="w-full aspect-square object-cover hover:opacity-90 transition duration-200">
+                </a>
+                <a href="https://www.instagram.com/reel/DA1uiaUJ3fs/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" aria-label="Lihat Postingan Instagram 2">
+                    <img src="https://placehold.co/400x400/6d28d9/ffffff?text=Reel+2" alt="Instagram Reel 2" class="w-full aspect-square object-cover hover:opacity-90 transition duration-200">
+                </a>
+                <a href="https://www.instagram.com/reel/DBShRBLSS-e/?utm_source=ig_web_copy_link&igsh=NTc4MTIwNjQ2YQ==" target="_blank" aria-label="Lihat Postingan Instagram 3">
+                    <img src="https://placehold.co/400x400/5b21b6/ffffff?text=Reel+3" alt="Instagram Reel 3" class="w-full aspect-square object-cover hover:opacity-90 transition duration-200">
+                </a>
+            </div> -->
+            <!-- Simulasi Feed Instagram (3 Kolom) - Bagian ini Dihapus -->
+        </section>
+        
         <!-- BAGIAN PEMESANAN JASA (Formulir) --><section id="pemesanan" class="flex justify-center mb-16">
             <div class="card p-6 md:p-8 w-full max-w-lg rounded-xl">
                 <h3 class="text-2xl font-bold mb-6 text-center text-purple-600 dark:text-purple-400">Pesan Jasa Foto & Video</h3>
@@ -227,7 +254,7 @@
                 </form>
 
                 <p class="text-xs mt-6 text-center text-gray-400 dark:text-gray-500">
-                    Kami akan segera merespon pesanan Anda. Dibuat oleh Bow Films 2025.
+                    Kami akan segera merespon pesanan Anda. Dibuat dengan cinta oleh Bow Films.
                 </p>
             </div>
         </section>
