@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="video-container">
-                        <iframe src="https://www.instagram.com/reel/DJy7TBhhpRg/?igsh=MWF2dmhtaHMyc2kwaA==" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p class="mt-2">Video Wedding - Contoh Kreatif</p>
                 </div>
