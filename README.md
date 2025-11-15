@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                        <iframe src="https://www.instagram.com/reel/DJy7TBhhpRg/?igsh=MWF2dmhtaHMyc2kwaA==" frameborder="0" allowfullscreen></iframe>
                     </div>
                     <p class="mt-2">Video Wedding - Contoh Kreatif</p>
                 </div>
@@ -147,7 +147,7 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Portofolio Fotografer & Videografer. Dibuat dengan <i class="fas fa-heart"></i></p>
+            <p>&copy; 2025 @bow.films Portofolio Fotografer & Videografer. Dibuat dengan <i class="fas fa-heart"></i></p>
             <div>
                 <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
                 <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
