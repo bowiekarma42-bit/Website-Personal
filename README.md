@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Miss Universe Indonesia — Demo</title>
-  <meta name="description" content="Demo website elegan dan user-friendly ala Miss Universe Indonesia. Deploy ke GitHub Pages." />
+  <title>Puteri Inspirasi Indonesia — Demo</title>
+  <meta name="description" content="Demo website elegan dan user-friendly ala Puteri Inspirasi Indonesia. Deploy ke GitHub Pages." />
   <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
   <style>
     :root{
