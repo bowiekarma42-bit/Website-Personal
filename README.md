@@ -1,25 +1,4 @@
-<!--
-Static single-file website: "Miss Universe Indonesia - Demo"
-Features included:
-- Elegant hero slider (auto + controls)
-- Navbar with search
-- Sections: Berita (news), Finalis, Pemenang, Sponsors, Galeri, Kontak
-- Dark mode (default) with toggle and remembers preference
-- Simple Admin panel (client-side, password-protected) to add/Edit items saved in localStorage
-- Responsive and accessible
 
-How to use & deploy to GitHub Pages:
-1. Create a new GitHub repo (public) and add this file as index.html in the root.
-2. Commit and push.
-3. In repo settings -> Pages -> Source: "main" branch / root -> Save.
-4. Your site will be served at https://<username>.github.io/<repo-name>/ (may take a minute).
-
-Notes:
-- This is a static demo. Admin uses localStorage only (no server). For real admin, connect an API or headless CMS.
-- Replace placeholder image URLs with your own assets in the code.
--->
-
-<!doctype html>
 <html lang="id">
 <head>
   <meta charset="utf-8" />
